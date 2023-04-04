@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
-      <h1 className="text-5xl bg-lime-500">Welcome to my TailwindCssWith vite world</h1>
+      <h1 className="text-5xl text-blue-500 mt-8">Welcome to my TailwindCssWith vite world</h1>
       
     </div>
   );
