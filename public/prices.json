@@ -1,0 +1,6 @@
+[
+    { "id": 1, "option": "Basic", "price": 30, "features": ["Gym access", "Locker room access"] },
+    { "id": 2, "option": "Standard", "price": 50, "features": ["Gym access", "Locker room access", "Group fitness classes"] },
+    { "id": 3, "option": "Premium", "price": 80, "features": ["Gym access", "Locker room access", "Group fitness classes", "Personal training sessions"] }
+  ]
+  

@@ -1,11 +1,21 @@
-import React from 'react';
+import React from "react";
+import { useEffect } from "react";
+import { useState } from "react";
 
 const PriceList = () => {
-    return (
-        <div>
-            <h2 className='text-4xl bg-emerald-300'>Kew tomake vison vlobasuk tumi onno kro hole lukiye anmone vison kaduk</h2>
-        </div>
-    );
+  const [prices, setPrices] = useState([]);
+  useEffect(() => {
+    fetch("prices.json")
+      .then((res) => res.json())
+      .then((data = setPrices(data)));
+  }, []);
+  return (
+    <div>
+      <h2 className="text-4xl bg-emerald-300 text-center text-[#db2777]">
+        Awesome affordable price
+      </h2>
+    </div>
+  );
 };
 
 export default PriceList;
