@@ -1,4 +1,5 @@
 import React from "react";
+import Feature from "../Features/Feature";
 
 const PriceCart = ({ price }) => {
   return (
@@ -8,9 +9,10 @@ const PriceCart = ({ price }) => {
         <span className="text-xl font-bold text-purple-700">{price.price}</span>
         /Mon
       </h5>
-      <h2>Features:{}</h2>
+      <h2 className="text-white text-2xl">Features:{}</h2>
       {
-        price.features.map(feature=><li>{feature}</li>)
+        price.features.map((feature,idx)=><Feature 
+        key={feature.idx} feature={feature}></Feature>)
       }
     </div>
   );
