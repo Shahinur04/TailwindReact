@@ -77,7 +77,7 @@ const Dashboard = () => {
       ]
     return (
         <div>
-            <LineChart width={500}
+            <LineChart width={1200}
                 height={300}
                 data={marksArray}>
                 <Line type="monotone" dataKey="math" stroke="#82ca9d" />
