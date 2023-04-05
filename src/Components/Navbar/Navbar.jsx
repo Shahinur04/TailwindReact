@@ -35,7 +35,7 @@ const Navbar = () => {
             
       
     return (
-        <nav className='text-[#1e1b4b] bg-lime-400'>
+        <nav className='text-[#1e1b4b] bg-lime-400 px-4'>
             <div onClick={()=>setOpen(!open)} 
             className='md:hidden'>
             
