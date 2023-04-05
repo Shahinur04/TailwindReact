@@ -83,6 +83,9 @@ const Dashboard = () => {
                 <Line type="monotone" dataKey="math" stroke="#82ca9d" />
                 <Line type="monotone" dataKey="chemistry" stroke="#be123c" />
                 <Line type="monotone" dataKey="physics" stroke="#047857" />
+                <XAxis dataKey="name" />
+                <YAxis></YAxis>
+                <Tooltip></Tooltip>
             </LineChart>
         </div>
     );
